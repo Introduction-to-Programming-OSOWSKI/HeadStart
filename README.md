@@ -1,17 +1,33 @@
-# **Assignment Title**  
+# **Head Start**  
 
 ## **Assignment Description**  
-
+Given a string str, return true if str starts with "head" and false otherwise. The method should be called headStart.
 
 ## **Examples**  
->
+>headStart("headstrong")  
+true  
+
+>headStart("headmaster")  
+true
+
+>headStart("headstand")  
+true
+
+>headStart("hedgehog")  
+false
 
 ## **Limitations**  
+1 method  
+1 if  
+1 else  
+
 
 ## **Hints**  
+Use str.substring()  
+Use str.equals() to compare two strings
 
 ## **Concepts**  
-
+Methods, String, substring(), if/else 
 
 ---
 

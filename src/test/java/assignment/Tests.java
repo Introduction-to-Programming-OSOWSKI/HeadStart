@@ -16,7 +16,11 @@ public class Tests {
    @Test
    public void test(){
        App.main(null);
-       //assertEquals("EXPECTED", App.testMethod(), "ERROR MESSAGE");
+       assertEquals(true, App.headStart("headwvbwoev"), "INCORRECT");
+       assertEquals(true, App.headStart("head"), "INCORRECT");
+       assertEquals(true, App.headStart("headnnnnnnnnnnnnnnnnnnnnn"), "INCORRECT");
+       assertEquals(true, App.headStart("headf"), "INCORRECT");
+       assertEquals(false, App.headStart("hedwvbwoev"), "INCORRECT");
    }
 
 }
